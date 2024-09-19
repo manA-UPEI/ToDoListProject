@@ -1,8 +1,9 @@
-import java.awt.*;
+package project;
 
 public class MainRun {
 
     public static void main(String[] args) {
-        System.out.println("HEy");
+        UserData people = UserData.inputUserData();
+
     }
 }
